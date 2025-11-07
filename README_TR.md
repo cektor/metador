@@ -1,3 +1,10 @@
+<a href="#">
+    <img src="https://raw.githubusercontent.com/pedromxavier/flag-badges/main/badges/TR.svg" alt="made in TR">
+</a>
+
+
+## [English Guide](https://github.com/cektor/metador/blob/main/README.md)
+
 # Metador - Metadata Temizleyici
 
 ![Metador Logo](metadorlo.png)
