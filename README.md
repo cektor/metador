@@ -14,6 +14,7 @@
 
 - [Features](#features)
 - [Supported File Formats](#supported-file-formats)
+- [Screenshots](#-screenshots)
 - [Installation](#installation)
 - [Usage](#usage)
 - [System Requirements](#system-requirements)
@@ -68,6 +69,24 @@
 ### 📄 Document Files
 - **Office Documents**: PDF, DOCX, DOC, XLSX, XLS, PPTX, PPT
 - **Metadata Management**: Cleans document properties and metadata
+
+## 📸 Screenshots
+
+<div align="left">
+
+
+![1](screenshots/1.png)
+
+
+![2](screenshots/2.png)
+
+
+![3](screenshots/3.png)
+
+
+![4](screenshots/4.png)
+
+
 
 ## 🚀 Installation
 
