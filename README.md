@@ -2,6 +2,8 @@
     <img src="https://raw.githubusercontent.com/pedromxavier/flag-badges/main/badges/TR.svg" alt="made in TR">
 </a>
 
+## [Türkçe Kılavuz](https://github.com/cektor/metador/blob/main/README-TR.md)
+
 # Metador - Metadata Cleaner
 
 ![Metador Logo](metadorlo.png)
