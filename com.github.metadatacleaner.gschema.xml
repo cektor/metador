@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="com.github.metadatacleaner" path="/com/github/metadatacleaner/">
+    <key name="current-language" type="s">
+      <default>"turkish"</default>
+      <summary>Current language</summary>
+      <description>The currently selected language for the application interface</description>
+    </key>
+  </schema>
+</schemalist>

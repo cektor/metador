@@ -1,0 +1,15 @@
+# Metador - Metadata Editor & Cleaner
+# Python GTK4/Libadwaita tabanlı metadata yönetim uygulaması
+
+# GTK4 ve Libadwaita için Python bağlamaları
+PyGObject>=3.42.0
+
+# Görüntü işleme için GdkPixbuf desteği (PyGObject ile birlikte gelir)
+# Video thumbnail'ları için (opsiyonel - sistem kurulu olmalı)
+# ffmpeg
+
+# PDF thumbnail'ları için (opsiyonel - sistem kurulu olmalı) 
+# poppler-utils
+
+# Metadata işlemleri için (sistem kurulu olmalı)
+# exiftool

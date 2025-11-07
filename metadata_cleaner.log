@@ -1,0 +1,260 @@
+2025-11-06 14:56:54,258 - INFO - Metadata Cleaner başlatıldı
+2025-11-06 14:57:02,105 - INFO - Metadata yükleniyor: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 14:57:02,356 - DEBUG - Çalıştırılan komut: exiftool -json -G -struct -duplicates -unknown -charset filename=utf8 -charset utf8 /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 14:57:02,671 - DEBUG - ExifTool çıktısı: [{
+  "SourceFile": "/home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg",
+  "ExifTool:ExifToolVersion": 12.57,
+  "File:FileName": "IPTC-GoogleImgSrcPmd_testimg01.jpg",
+  "File:Directory": "/home/fatih/Resimler",
+  "File:FileSize": "930 kB",
+  "File:FileModifyDate": "2025:11:06 14:49:39+03:00",
+  "File:FileAccessDate": "2025:11:06 14:49:40+03:00",
+  "File:FileInodeChangeDate": "2025:11:06 14:55:18+03:00",
+  "File:FilePermissions": "-rw-r--r--",
+  "File:FileType": "JPEG",
+  "File:FileTypeExtension": "jpg",
+  "File:MIMEType": "image/jpeg",
+  "File:ImageWidth": 3000,
+  "File:ImageHeight": 2006,
+  "File:EncodingProcess": "Baseline DCT, Huffman coding",
+  "File:BitsPerSample": 8,
+  "File:ColorComponents": 3,
+  "File:YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+  "Composite:ImageSize": "3000x2006",
+  "Composite:Megapixels": 6.0
+}]
+
+2025-11-06 14:57:02,681 - INFO - Metadata başarıyla yüklendi
+2025-11-06 14:57:17,046 - INFO - Metadata temizleme başlatıldı: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 14:57:17,047 - DEBUG - Yedek dosya oluşturuluyor: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg_original
+2025-11-06 14:57:17,047 - DEBUG - Çalıştırılan komut: exiftool -all= -overwrite_original /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 14:57:17,508 - ERROR - ExifTool hatası: Error: File not found - /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+
+2025-11-06 14:57:17,509 - ERROR - Hata kodu: 1
+2025-11-06 14:57:17,509 - ERROR - Komut: ['exiftool', '-all=', '-overwrite_original', '/home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg']
+2025-11-06 14:57:17,509 - INFO - Yedek dosya geri yükleniyor
+2025-11-06 15:13:40,977 - INFO - Metadata Cleaner başlatıldı
+2025-11-06 15:13:45,454 - INFO - Metadata yükleniyor: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:13:45,699 - DEBUG - Çalıştırılan komut: exiftool -json -G -struct -duplicates -unknown -charset filename=utf8 -charset utf8 /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:13:46,063 - DEBUG - ExifTool çıktısı: [{
+  "SourceFile": "/home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg",
+  "ExifTool:ExifToolVersion": 12.57,
+  "File:FileName": "IPTC-GoogleImgSrcPmd_testimg01.jpg",
+  "File:Directory": "/home/fatih/Resimler",
+  "File:FileSize": "930 kB",
+  "File:FileModifyDate": "2025:11:06 14:49:39+03:00",
+  "File:FileAccessDate": "2025:11:06 14:57:02+03:00",
+  "File:FileInodeChangeDate": "2025:11:06 14:57:17+03:00",
+  "File:FilePermissions": "-rw-r--r--",
+  "File:FileType": "JPEG",
+  "File:FileTypeExtension": "jpg",
+  "File:MIMEType": "image/jpeg",
+  "File:ImageWidth": 3000,
+  "File:ImageHeight": 2006,
+  "File:EncodingProcess": "Baseline DCT, Huffman coding",
+  "File:BitsPerSample": 8,
+  "File:ColorComponents": 3,
+  "File:YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+  "Composite:ImageSize": "3000x2006",
+  "Composite:Megapixels": 6.0
+}]
+
+2025-11-06 15:13:46,074 - INFO - Metadata başarıyla yüklendi
+2025-11-06 15:13:50,507 - INFO - Metadata temizleme başlatıldı: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:13:50,507 - DEBUG - Yedek dosya oluşturuluyor: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg_original
+2025-11-06 15:13:50,525 - DEBUG - Çalıştırılan komut: exiftool -all= -overwrite_original -ignoreMinorErrors /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:13:51,003 - DEBUG - ExifTool çıktısı:     0 image files updated
+    1 image files unchanged
+
+2025-11-06 15:13:51,004 - INFO - Metadata başarıyla temizlendi
+2025-11-06 15:13:51,004 - DEBUG - Yedek dosya silindi
+2025-11-06 15:13:52,603 - INFO - Metadata yükleniyor: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:13:52,867 - DEBUG - Çalıştırılan komut: exiftool -json -G -struct -duplicates -unknown -charset filename=utf8 -charset utf8 /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:13:53,171 - DEBUG - ExifTool çıktısı: [{
+  "SourceFile": "/home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg",
+  "ExifTool:ExifToolVersion": 12.57,
+  "File:FileName": "IPTC-GoogleImgSrcPmd_testimg01.jpg",
+  "File:Directory": "/home/fatih/Resimler",
+  "File:FileSize": "930 kB",
+  "File:FileModifyDate": "2025:11:06 14:49:39+03:00",
+  "File:FileAccessDate": "2025:11:06 15:13:46+03:00",
+  "File:FileInodeChangeDate": "2025:11:06 14:57:17+03:00",
+  "File:FilePermissions": "-rw-r--r--",
+  "File:FileType": "JPEG",
+  "File:FileTypeExtension": "jpg",
+  "File:MIMEType": "image/jpeg",
+  "File:ImageWidth": 3000,
+  "File:ImageHeight": 2006,
+  "File:EncodingProcess": "Baseline DCT, Huffman coding",
+  "File:BitsPerSample": 8,
+  "File:ColorComponents": 3,
+  "File:YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+  "Composite:ImageSize": "3000x2006",
+  "Composite:Megapixels": 6.0
+}]
+
+2025-11-06 15:13:53,186 - INFO - Metadata başarıyla yüklendi
+2025-11-06 15:13:58,173 - INFO - Metadata yükleniyor: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:13:58,415 - DEBUG - Çalıştırılan komut: exiftool -json -G -struct -duplicates -unknown -charset filename=utf8 -charset utf8 /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:13:58,728 - DEBUG - ExifTool çıktısı: [{
+  "SourceFile": "/home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg",
+  "ExifTool:ExifToolVersion": 12.57,
+  "File:FileName": "IPTC-GoogleImgSrcPmd_testimg01.jpg",
+  "File:Directory": "/home/fatih/Resimler",
+  "File:FileSize": "930 kB",
+  "File:FileModifyDate": "2025:11:06 14:49:39+03:00",
+  "File:FileAccessDate": "2025:11:06 15:13:46+03:00",
+  "File:FileInodeChangeDate": "2025:11:06 14:57:17+03:00",
+  "File:FilePermissions": "-rw-r--r--",
+  "File:FileType": "JPEG",
+  "File:FileTypeExtension": "jpg",
+  "File:MIMEType": "image/jpeg",
+  "File:ImageWidth": 3000,
+  "File:ImageHeight": 2006,
+  "File:EncodingProcess": "Baseline DCT, Huffman coding",
+  "File:BitsPerSample": 8,
+  "File:ColorComponents": 3,
+  "File:YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+  "Composite:ImageSize": "3000x2006",
+  "Composite:Megapixels": 6.0
+}]
+
+2025-11-06 15:13:58,780 - INFO - Metadata başarıyla yüklendi
+2025-11-06 15:15:34,255 - INFO - Metadata Cleaner başlatıldı
+2025-11-06 15:15:44,590 - INFO - Metadata yükleniyor: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:15:44,851 - DEBUG - Çalıştırılan komut: exiftool -json -G -struct -duplicates -unknown -charset filename=utf8 -charset utf8 /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:15:45,157 - DEBUG - ExifTool çıktısı: [{
+  "SourceFile": "/home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg",
+  "ExifTool:ExifToolVersion": 12.57,
+  "File:FileName": "IPTC-GoogleImgSrcPmd_testimg01.jpg",
+  "File:Directory": "/home/fatih/Resimler",
+  "File:FileSize": "930 kB",
+  "File:FileModifyDate": "2025:11:06 14:49:39+03:00",
+  "File:FileAccessDate": "2025:11:06 15:13:46+03:00",
+  "File:FileInodeChangeDate": "2025:11:06 14:57:17+03:00",
+  "File:FilePermissions": "-rw-r--r--",
+  "File:FileType": "JPEG",
+  "File:FileTypeExtension": "jpg",
+  "File:MIMEType": "image/jpeg",
+  "File:ImageWidth": 3000,
+  "File:ImageHeight": 2006,
+  "File:EncodingProcess": "Baseline DCT, Huffman coding",
+  "File:BitsPerSample": 8,
+  "File:ColorComponents": 3,
+  "File:YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+  "Composite:ImageSize": "3000x2006",
+  "Composite:Megapixels": 6.0
+}]
+
+2025-11-06 15:15:45,167 - INFO - Metadata başarıyla yüklendi
+2025-11-06 15:15:52,205 - INFO - Metadata temizleme başlatıldı: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:15:52,206 - DEBUG - Yedek dosya oluşturuluyor: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg_original
+2025-11-06 15:15:52,221 - DEBUG - Çalıştırılan komut: exiftool -all= -tagsfromfile @ -orientation -icc_profile:all -gps:all= -xmp:all= -iptc:all= -exif:all= -overwrite_original -P /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:15:53,156 - DEBUG - ExifTool çıktısı:     0 image files updated
+    1 image files unchanged
+
+2025-11-06 15:15:53,156 - WARNING - ExifTool uyarıları: Warning: No writable tags set from /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+
+2025-11-06 15:15:53,156 - INFO - Metadata başarıyla temizlendi
+2025-11-06 15:15:53,157 - DEBUG - Yedek dosya silindi
+2025-11-06 15:15:55,341 - INFO - Metadata yükleniyor: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:15:55,599 - DEBUG - Çalıştırılan komut: exiftool -json -G -struct -duplicates -unknown -charset filename=utf8 -charset utf8 /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:15:55,912 - DEBUG - ExifTool çıktısı: [{
+  "SourceFile": "/home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg",
+  "ExifTool:ExifToolVersion": 12.57,
+  "File:FileName": "IPTC-GoogleImgSrcPmd_testimg01.jpg",
+  "File:Directory": "/home/fatih/Resimler",
+  "File:FileSize": "930 kB",
+  "File:FileModifyDate": "2025:11:06 14:49:39+03:00",
+  "File:FileAccessDate": "2025:11:06 15:13:46+03:00",
+  "File:FileInodeChangeDate": "2025:11:06 14:57:17+03:00",
+  "File:FilePermissions": "-rw-r--r--",
+  "File:FileType": "JPEG",
+  "File:FileTypeExtension": "jpg",
+  "File:MIMEType": "image/jpeg",
+  "File:ImageWidth": 3000,
+  "File:ImageHeight": 2006,
+  "File:EncodingProcess": "Baseline DCT, Huffman coding",
+  "File:BitsPerSample": 8,
+  "File:ColorComponents": 3,
+  "File:YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+  "Composite:ImageSize": "3000x2006",
+  "Composite:Megapixels": 6.0
+}]
+
+2025-11-06 15:15:55,924 - INFO - Metadata başarıyla yüklendi
+2025-11-06 15:17:21,753 - INFO - Metadata Cleaner başlatıldı
+2025-11-06 15:17:26,929 - INFO - Metadata yükleniyor: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:17:27,176 - DEBUG - Çalıştırılan komut: exiftool -json -G -struct -duplicates -unknown -charset filename=utf8 -charset utf8 /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:17:27,529 - DEBUG - ExifTool çıktısı: [{
+  "SourceFile": "/home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg",
+  "ExifTool:ExifToolVersion": 12.57,
+  "File:FileName": "IPTC-GoogleImgSrcPmd_testimg01.jpg",
+  "File:Directory": "/home/fatih/Resimler",
+  "File:FileSize": "930 kB",
+  "File:FileModifyDate": "2025:11:06 14:49:39+03:00",
+  "File:FileAccessDate": "2025:11:06 15:13:46+03:00",
+  "File:FileInodeChangeDate": "2025:11:06 14:57:17+03:00",
+  "File:FilePermissions": "-rw-r--r--",
+  "File:FileType": "JPEG",
+  "File:FileTypeExtension": "jpg",
+  "File:MIMEType": "image/jpeg",
+  "File:ImageWidth": 3000,
+  "File:ImageHeight": 2006,
+  "File:EncodingProcess": "Baseline DCT, Huffman coding",
+  "File:BitsPerSample": 8,
+  "File:ColorComponents": 3,
+  "File:YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+  "Composite:ImageSize": "3000x2006",
+  "Composite:Megapixels": 6.0
+}]
+
+2025-11-06 15:17:27,541 - INFO - Metadata başarıyla yüklendi
+2025-11-06 15:17:30,078 - INFO - Metadata temizleme başlatıldı: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:17:30,079 - DEBUG - Yedek dosya oluşturuluyor: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg_original
+2025-11-06 15:17:30,093 - DEBUG - 1. Temizlik komutu: exiftool -all= -overwrite_original /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:17:30,573 - DEBUG - 2. Temizlik komutu: exiftool -addTagsFromFile @ -FileType -FileTypeExtension -MIMEType -ImageSize -overwrite_original /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:17:31,120 - DEBUG - 3. Temizlik komutu: exiftool -adobe:all= -xmp:all= -iptc:all= -icc_profile:all= -gps:all= -exif:all= -overwrite_original -P /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:17:31,595 - DEBUG - ExifTool çıktısı:     0 image files updated
+    1 image files unchanged
+
+2025-11-06 15:17:31,596 - DEBUG - Yedek dosya silindi: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg_original
+2025-11-06 15:17:39,784 - INFO - Metadata yükleniyor: /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:17:40,040 - DEBUG - Çalıştırılan komut: exiftool -json -G -struct -duplicates -unknown -charset filename=utf8 -charset utf8 /home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-06 15:17:40,345 - DEBUG - ExifTool çıktısı: [{
+  "SourceFile": "/home/fatih/Resimler/IPTC-GoogleImgSrcPmd_testimg01.jpg",
+  "ExifTool:ExifToolVersion": 12.57,
+  "File:FileName": "IPTC-GoogleImgSrcPmd_testimg01.jpg",
+  "File:Directory": "/home/fatih/Resimler",
+  "File:FileSize": "930 kB",
+  "File:FileModifyDate": "2025:11:06 14:49:39+03:00",
+  "File:FileAccessDate": "2025:11:06 15:13:46+03:00",
+  "File:FileInodeChangeDate": "2025:11:06 14:57:17+03:00",
+  "File:FilePermissions": "-rw-r--r--",
+  "File:FileType": "JPEG",
+  "File:FileTypeExtension": "jpg",
+  "File:MIMEType": "image/jpeg",
+  "File:ImageWidth": 3000,
+  "File:ImageHeight": 2006,
+  "File:EncodingProcess": "Baseline DCT, Huffman coding",
+  "File:BitsPerSample": 8,
+  "File:ColorComponents": 3,
+  "File:YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+  "Composite:ImageSize": "3000x2006",
+  "Composite:Megapixels": 6.0
+}]
+
+2025-11-06 15:17:40,357 - INFO - Metadata başarıyla yüklendi
+2025-11-06 15:27:36,294 - INFO - Metadata Cleaner başlatıldı
+2025-11-06 15:27:39,637 - INFO - Metadata Cleaner başlatıldı
+2025-11-06 15:27:39,637 - INFO - Metadata Cleaner başlatıldı
+2025-11-06 15:27:42,690 - INFO - Metadata Cleaner başlatıldı
+2025-11-06 15:27:42,690 - INFO - Metadata Cleaner başlatıldı
+2025-11-06 15:27:42,690 - INFO - Metadata Cleaner başlatıldı
+2025-11-06 15:28:13,743 - INFO - Metadata Cleaner başlatıldı
+2025-11-06 15:38:29,725 - INFO - Metadata Cleaner başlatıldı
+2025-11-06 15:38:37,047 - INFO - Metadata Cleaner başlatıldı
+2025-11-06 15:38:37,047 - INFO - Metadata Cleaner başlatıldı
+2025-11-06 15:38:41,187 - INFO - Metadata Cleaner başlatıldı
+2025-11-06 15:38:41,187 - INFO - Metadata Cleaner başlatıldı
+2025-11-06 15:38:41,187 - INFO - Metadata Cleaner başlatıldı

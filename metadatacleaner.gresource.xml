@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/github/metadatacleaner">
+    <file>style.css</file>
+    <file>languages/turkish.ini</file>
+    <file>languages/english.ini</file>
+  </gresource>
+</gresources>

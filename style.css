@@ -1,0 +1,294 @@
+/* Modern Metador Styles */
+
+/* Main window with gradient background */
+.main-window {
+    background: linear-gradient(135deg, @window_bg_color 0%, alpha(@accent_bg_color, 0.05) 100%);
+}
+
+/* Welcome page with animated gradient */
+.welcome-page {
+    background: linear-gradient(45deg, 
+        alpha(@accent_bg_color, 0.1) 0%, 
+        alpha(@success_bg_color, 0.1) 50%, 
+        alpha(@accent_bg_color, 0.1) 100%);
+    background-size: 400% 400%;
+    animation: gradientShift 8s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Welcome icon with glow effect */
+.welcome-icon {
+    color: @accent_bg_color;
+    -gtk-icon-shadow: 0 0 20px alpha(@accent_bg_color, 0.4);
+    animation: iconPulse 3s ease-in-out infinite;
+}
+
+@keyframes iconPulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+/* Category headers with modern styling */
+.category-header {
+    background: linear-gradient(90deg, 
+        alpha(@accent_bg_color, 0.15) 0%, 
+        alpha(@accent_bg_color, 0.05) 100%);
+    border-radius: 12px;
+    margin: 16px 0 8px 0;
+    padding: 12px 16px;
+    border-left: 4px solid @accent_bg_color;
+    box-shadow: 0 2px 8px alpha(@window_fg_color, 0.1);
+    transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.category-header:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 16px alpha(@window_fg_color, 0.15);
+}
+
+.category-header label {
+    font-weight: 600;
+    color: @accent_color;
+    text-shadow: 0 1px 2px alpha(@window_fg_color, 0.1);
+}
+
+.category-header image {
+    color: @accent_color;
+    filter: drop-shadow(0 1px 2px alpha(@accent_color, 0.3));
+}
+
+/* Metadata rows with hover effects */
+.metadata-row {
+    padding: 12px 20px;
+    border-bottom: 1px solid alpha(@borders, 0.1);
+    background: @card_bg_color;
+    transition: all 250ms ease;
+}
+
+.metadata-row:hover {
+    background: alpha(@accent_bg_color, 0.05);
+    transform: translateX(2px);
+    border-left: 3px solid @accent_bg_color;
+}
+
+.metadata-key {
+    font-size: 13px;
+    color: alpha(@window_fg_color, 0.8);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.metadata-value {
+    font-size: 14px;
+    padding-left: 24px;
+    font-family: monospace;
+    background: alpha(@card_bg_color, 0.5);
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-top: 4px;
+}
+
+/* Enhanced boxed list */
+.boxed-list {
+    background: @card_bg_color;
+    border: 1px solid alpha(@borders, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px alpha(@window_fg_color, 0.08);
+    backdrop-filter: blur(10px);
+}
+
+/* File info card with glass effect */
+.file-info-card {
+    background: linear-gradient(135deg, 
+        alpha(@card_bg_color, 0.9) 0%, 
+        alpha(@card_bg_color, 0.7) 100%);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 16px;
+    box-shadow: 0 8px 32px alpha(@window_fg_color, 0.1);
+    backdrop-filter: blur(20px);
+    border: 1px solid alpha(@borders, 0.2);
+}
+
+/* Animated buttons */
+button {
+    transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    border-radius: 12px;
+}
+
+button:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 8px 25px alpha(@accent_bg_color, 0.3);
+}
+
+button:active {
+    transform: translateY(0) scale(0.98);
+    transition: all 100ms ease;
+}
+
+/* Pill button with gradient */
+.pill {
+    border-radius: 50px;
+    padding: 16px 32px;
+    font-weight: 600;
+    background: linear-gradient(45deg, @accent_bg_color, alpha(@accent_bg_color, 0.8));
+    color: @accent_fg_color;
+    text-shadow: 0 1px 2px alpha(@window_fg_color, 0.2);
+    box-shadow: 0 4px 15px alpha(@accent_bg_color, 0.4);
+}
+
+.pill:hover {
+    background: linear-gradient(45deg, alpha(@accent_bg_color, 0.9), @accent_bg_color);
+    box-shadow: 0 6px 20px alpha(@accent_bg_color, 0.5);
+}
+
+/* Card with modern styling */
+.card {
+    background: linear-gradient(135deg, 
+        @card_bg_color 0%, 
+        alpha(@card_bg_color, 0.95) 100%);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 10px 40px alpha(@window_fg_color, 0.1);
+    border: 1px solid alpha(@borders, 0.15);
+    backdrop-filter: blur(10px);
+}
+
+/* Animated scrollbar */
+scrollbar {
+    background-color: transparent;
+    transition: all 200ms ease;
+}
+
+scrollbar slider {
+    background: linear-gradient(45deg, 
+        alpha(@accent_bg_color, 0.3), 
+        alpha(@accent_bg_color, 0.5));
+    border-radius: 50px;
+    min-width: 12px;
+    min-height: 12px;
+    margin: 2px;
+    transition: all 200ms ease;
+}
+
+scrollbar slider:hover {
+    background: linear-gradient(45deg, 
+        alpha(@accent_bg_color, 0.5), 
+        alpha(@accent_bg_color, 0.7));
+    transform: scaleX(1.2);
+}
+
+/* Window with subtle animation */
+window {
+    background: linear-gradient(135deg, @window_bg_color 0%, alpha(@accent_bg_color, 0.02) 100%);
+}
+
+/* Enhanced typography */
+.title-1 {
+    font-size: 2.2em;
+    font-weight: 700;
+    background: linear-gradient(45deg, @accent_color, alpha(@accent_color, 0.7));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 2px 4px alpha(@window_fg_color, 0.1);
+}
+
+.title-2 {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: @accent_color;
+}
+
+.title-4 {
+    font-weight: 600;
+    color: @accent_color;
+}
+
+/* Dim label with subtle animation */
+.dim-label {
+    opacity: 0.7;
+    transition: opacity 200ms ease;
+}
+
+.dim-label:hover {
+    opacity: 0.9;
+}
+
+/* Loading animation for buttons */
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.loading {
+    animation: spin 1s linear infinite;
+}
+
+/* Status page enhancements */
+statuspage {
+    background: radial-gradient(circle at center, 
+        alpha(@accent_bg_color, 0.05) 0%, 
+        transparent 70%);
+}
+
+/* Action row hover effects */
+row {
+    transition: all 200ms ease;
+    border-radius: 8px;
+    margin: 2px 0;
+}
+
+row:hover {
+    background: alpha(@accent_bg_color, 0.08);
+    transform: scale(1.01);
+}
+
+/* Preferences group styling */
+preferencesgroup {
+    background: alpha(@card_bg_color, 0.5);
+    border-radius: 12px;
+    padding: 8px;
+    backdrop-filter: blur(5px);
+}
+
+/* Header bar enhancements */
+headerbar {
+    background: linear-gradient(90deg, 
+        alpha(@headerbar_bg_color, 0.95) 0%, 
+        alpha(@accent_bg_color, 0.1) 50%, 
+        alpha(@headerbar_bg_color, 0.95) 100%);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 2px 10px alpha(@window_fg_color, 0.1);
+}
+
+/* Menu button styling */
+menubutton button {
+    border-radius: 10px;
+    transition: all 200ms ease;
+}
+
+menubutton button:hover {
+    background: alpha(@accent_bg_color, 0.1);
+    transform: scale(1.05);
+}
+
+/* Preview image styling */
+.preview-image {
+    border-radius: 12px;
+    background: alpha(@card_bg_color, 0.5);
+    border: 2px solid alpha(@borders, 0.2);
+    box-shadow: 0 4px 16px alpha(@window_fg_color, 0.1);
+    transition: all 300ms ease;
+}
+
+.preview-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 24px alpha(@window_fg_color, 0.15);
+}
