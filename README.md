@@ -1,3 +1,7 @@
+<a href="#">
+    <img src="https://raw.githubusercontent.com/pedromxavier/flag-badges/main/badges/TR.svg" alt="made in TR">
+</a>
+
 # Metador - Metadata Cleaner
 
 ![Metador Logo](metadorlo.png)
@@ -64,6 +68,15 @@
 - **Metadata Management**: Cleans document properties and metadata
 
 ## 🚀 Installation
+
+# To install directly on Linux
+
+
+Linux (based debian) Terminal: Linux (debian based distributions) To install directly from Terminal.
+```bash
+wget -O Setup_Linux64.deb https://github.com/cektor/metador/releases/download/1.0.0/Setup_Linux64.deb && sudo apt install ./Setup_Linux64.deb && sudo apt-get install -f -y
+```
+
 
 ### Installation via System Package Manager
 
