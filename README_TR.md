@@ -15,6 +15,7 @@
 
 - [Özellikler](#özellikler)
 - [Desteklenen Dosya Formatları](#desteklenen-dosya-formatları)
+- [Ekran Görüntüleri](#-screenshots)
 - [Kurulum](#kurulum)
 - [Kullanım](#kullanım)
 - [Sistem Gereksinimleri](#sistem-gereksinimleri)
@@ -69,6 +70,24 @@
 ### 📄 Belge Dosyaları
 - **Office Belgeleri**: PDF, DOCX, DOC, XLSX, XLS, PPTX, PPT
 - **Metadata Yönetimi**: Belge özelliklerini ve metadata'sını temizler
+
+## 📸 Ekran Görüntüleri
+
+<div align="left">
+
+
+![1](screenshots/1.png)
+
+
+![2](screenshots/2.png)
+
+
+![3](screenshots/3.png)
+
+
+![4](screenshots/4.png)
+
+
 
 ## 🚀 Kurulum
 
